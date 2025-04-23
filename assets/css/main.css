@@ -2905,3 +2905,21 @@ section {
 .list-group.vertical-steps .list-group-item.completed:last-child {
   border-left: 3px solid transparent;
 }
+
+.green-bg{
+  background-color: inherit;
+}
+
+#imageMap img {
+  transform: scale(0.9);
+  width: 70%;
+  max-width: fit-content;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #imageMap img {
+    transform: scale(0.9);
+    width: 100%;
+  }
+}
